@@ -59,4 +59,4 @@ Just copy `.\.vscode\workspace.code-workspace` structure to your project and VS 
 
 I personally like [Iosevka](https://typeof.net/Iosevka/), because it's monospaced, accept ligature and of course is pretty ;).
 
-To install it in your system, just follow the official [README.md](https://github.com/be5invis/Iosevka/blob/master/README.md). I use [iosevka-ss08-2.3.2](https://github.com/be5invis/Iosevka/releases/download/v2.3.2/iosevka-ss08-2.3.2.zip) with Iosevka Medium. The files that I used to install are available in [here](.\vscode\fonts).
+To install it in your system, just follow the official [README.md](https://github.com/be5invis/Iosevka/blob/master/README.md). I use [iosevka-ss08-2.3.2](https://github.com/be5invis/Iosevka/releases/download/v2.3.2/iosevka-ss08-2.3.2.zip) with Iosevka Medium. The files that I used to install are available in [here](.\vscode\fonts\).
