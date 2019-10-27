@@ -4,13 +4,13 @@
 
 ## Usage
 
-To enable `Settings`, `Extensions` and `Keybindings` follow the guides below.
+To enable [Settings](https://github.com/RodrigoCMoraes/vscode#extensions-and-settings), [Extensions](https://github.com/RodrigoCMoraes/vscode#extensions) and [Keybindings](https://github.com/RodrigoCMoraes/vscode#extensions#keybindings) follow the guides below.
 
 ### Extensions and Settings
 
 Just copy [.vscode\extensions.json](.vscode/extensions.json) and [.vscode/workspace.code-workspace](.vscode/workspace.code-workspace) structure to your project and VS Code automatically will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
 
-### Bindings
+### Keybindings
 
 Just add or replace lines in [.vscode/keybindings.json](.vscode/keybindings.json) by lines in your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
 
