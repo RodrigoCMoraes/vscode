@@ -4,7 +4,7 @@
 
 ## Usage
 
-To enable [Settings](https://github.com/RodrigoCMoraes/vscode#extensions-and-settings), [Extensions](https://github.com/RodrigoCMoraes/vscode#extensions) and [Keybindings](https://github.com/RodrigoCMoraes/vscode#extensions#keybindings) follow the guides below.
+To enable [Settings](https://github.com/RodrigoCMoraes/vscode#extensions-and-settings), [Extensions](https://github.com/RodrigoCMoraes/vscode#extensions) and [Keybindings](https://github.com/RodrigoCMoraes/vscode#keybindings) follow the guides below.
 
 ### Extensions and Settings
 
