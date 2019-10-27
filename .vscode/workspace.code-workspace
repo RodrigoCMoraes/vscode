@@ -11,6 +11,8 @@
         "zenMode.hideLineNumbers": false,
         "zenMode.hideStatusBar": false,
         "zenMode.hideTabs": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
         "editor.lineNumbers": "relative",
         "editor.minimap.enabled": false,
         "editor.cursorBlinking": "smooth",
