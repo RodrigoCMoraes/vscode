@@ -1,43 +1,46 @@
 {
-	"folders": [
-		{
-			"path": "D:\\GitHub\\vscode" // change in Linux
-		}
-	],
-	"settings": {
-		"workbench.iconTheme": "material-icon-theme",
-		"workbench.colorTheme": "Material Theme Darker High Contrast",
-		"window.zoomLevel": -0.15,
-		"zenMode.hideLineNumbers": false,
-		"zenMode.hideStatusBar": false,
-		"zenMode.hideTabs": false,
-		"editor.lineNumbers": "relative",
-		"editor.minimap.enabled": false,
-		"editor.cursorBlinking": "smooth",
-		"editor.cursorStyle": "block",
-		"editor.fontFamily": "'Iosevka SS08 Medium', 'Fira Code', Consolas, 'Courier New', monospace",
-		"editor.fontSize": 14,
-		"editor.fontLigatures": true,
-		"editor.suggestSelection": "recentlyUsedByPrefix",
-		"vim.foldfix": true,
-		"vim.insertModeKeyBindings": [
-			{
-				"before": [
-					"j",
-					"k"
-				],
-				"after": [
-					"<Esc>"
-				]
-			}
-		],
-		"terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
-		"terminal.integrated.fontSize": 13,
-		"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", // change in Linux
-		"python.formatting.provider": "black",
-		"code-runner.executorMap": {
-			"erlang": "erl -compile $fileName && erl -noshell -s $fileNameWithoutExt -s init stop",
-		},
-		"erlang.linting": true,
-	}
+    "folders": [
+        {
+            "path": "D:\\GitHub\\vscode" // change in Linux
+        }
+    ],
+    "settings": {
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.colorTheme": "Material Theme Darker High Contrast",
+        "window.zoomLevel": -0.15,
+        "zenMode.hideLineNumbers": false,
+        "zenMode.hideStatusBar": false,
+        "zenMode.hideTabs": false,
+        "editor.lineNumbers": "relative",
+        "editor.minimap.enabled": false,
+        "editor.cursorBlinking": "smooth",
+        "editor.cursorStyle": "block",
+        "editor.fontFamily": "'Iosevka SS08 Medium', 'Fira Code', Consolas, 'Courier New', monospace",
+        "editor.fontSize": 14,
+        "editor.fontLigatures": true,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "vim.foldfix": true,
+        "vim.insertModeKeyBindings": [
+            {
+                "before": [
+                    "j",
+                    "k"
+                ],
+                "after": [
+                    "<Esc>"
+                ]
+            }
+        ],
+        "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+        "terminal.integrated.fontSize": 13,
+        "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe", // change in Linux
+        "python.formatting.provider": "black",
+        "code-runner.executorMap": {
+            "erlang": "erl -compile $fileName && erl -noshell -s $fileNameWithoutExt -s init stop",
+        },
+        "erlang.linting": true,
+        "gitlens.currentLine.enabled": false, 
+        "gitlens.codeLens.authors.enabled": false,
+        "gitlens.codeLens.recentChange.enabled": false,
+    }
 }
