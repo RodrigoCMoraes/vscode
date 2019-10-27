@@ -1,0 +1,50 @@
+[
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "workbench.action.moveActiveEditorGroupLeft"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.moveActiveEditorGroupDown"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.moveActiveEditorGroupUp"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.moveActiveEditorGroupRight"
+    }
+]
