@@ -8,11 +8,11 @@ To enable `Settings`, `Extensions` and `Keybindings` follow the guides below.
 
 ### Extensions and Settings
 
-Just copy `.\.vscode\extensions.json` and `.\.vscode\workspace.code-workspace` structure to your project and VS Code automatically will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
+Just copy [.vscode\extensions.json](.vscode/extensions.json) and [.vscode/workspace.code-workspace](.vscode/workspace.code-workspace) structure to your project and VS Code automatically will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
 
 ### Bindings
 
-Just add or replace lines in `.\.vscode\keybinds.json` by lines in your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
+Just add or replace lines in [.vscode/keybindings.json](.vscode/keybindings.json) by lines in your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
 
 ## Extensions
 
@@ -59,4 +59,4 @@ Just copy `.\.vscode\workspace.code-workspace` structure to your project and VS 
 
 I personally like [Iosevka](https://typeof.net/Iosevka/), because it's monospaced, accept ligature and of course is pretty ;).
 
-To install it in your system, just follow the official [README.md](https://github.com/be5invis/Iosevka/blob/master/README.md). I use [iosevka-ss08-2.3.2](https://github.com/be5invis/Iosevka/releases/download/v2.3.2/iosevka-ss08-2.3.2.zip) with Iosevka Medium. The files that I used to install are available in [here](.\vscode\fonts\).
+To install it in your system, just follow the official [README.md](https://github.com/be5invis/Iosevka/blob/master/README.md). I use [iosevka-ss08-2.3.2](https://github.com/be5invis/Iosevka/releases/download/v2.3.2/iosevka-ss08-2.3.2.zip) with Iosevka Medium. The files that I used to install are available in [here](https://github.com/RodrigoCMoraes/vscode/tree/master/fonts).
