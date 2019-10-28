@@ -8,7 +8,7 @@ To enable [Settings](https://github.com/RodrigoCMoraes/vscode#extensions-and-set
 
 ### Extensions and Settings
 
-Just copy [.vscode\extensions.json](.vscode/extensions.json) and [.vscode/workspace.code-workspace](.vscode/workspace.code-workspace) structure to your project and VS Code automatically will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
+Just copy [.vscode\extensions.json](.vscode/extensions.json) and [.vscode/workspace.code-workspace](.vscode/workspace.code-workspace) structure to your project, then reload VS Code and it automatically will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
 
 ### Keybindings
 
@@ -53,7 +53,7 @@ They are available in [here](.vscode/extensions.json).
 
 They are available in [here](.vscode/workspace.code-workspace).
 
-Just copy [.vscode/workspace.code-workspace](.vscode/workspace.code-workspace) structure to your project and VS Code automatically will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
+Just copy [.vscode/workspace.code-workspace](.vscode/workspace.code-workspace) structure to your project, then reload VS Code, and automatically it will detect extensions recommendations. And if you want to enable this globally just replace copied to files to your [VS Code User](https://code.visualstudio.com/docs/getstarted/settings) files.
 
 ## Font
 
