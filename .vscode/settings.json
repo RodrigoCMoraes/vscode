@@ -1,11 +1,8 @@
 {
-    "python.pythonPath": "SET_YOUR_PYTHON_PATH",    
-    "python.pythonPath": "/home/rcmoraes/.local/share/virtualenvs/demo_packed_api-F6p-x2zM/bin/python",
+    "python.pythonPath": "SET_YOUR_PYTHON_PATH",
     "python.formatting.provider": "black",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 3000,
     "python.linting.flake8Args": [
         "--max-line-length=100",
         "--ignore=E231" // ignore whitespace after period
