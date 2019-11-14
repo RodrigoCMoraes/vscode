@@ -31,6 +31,8 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.suggest.localityBonus": true,
     "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 3000,
     "vim.foldfix": true,
     "vim.insertModeKeyBindings": [
         {
@@ -44,7 +46,8 @@
         }
     ],
     "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 13,    
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.rendererType": "canvas",
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
