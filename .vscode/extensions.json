@@ -1,19 +1,19 @@
 {
     "recommendations": [
-        "CoenraadS.bracket-pair-colorizer-2",
-        "formulahendry.code-runner",
         "CoenraadS.disableligatures",
         "ms-azuretools.vscode-docker",
         "codezombiech.gitignore",
         "eamodio.gitlens",
-        "oderwat.indent-rainbow",
         "DavidAnson.vscode-markdownlint",
         "PKief.material-icon-theme",
         "Equinusocio.vsc-material-theme",
-        "christian-kohler.path-intellisense",
         "ms-vscode-remote.vscode-remote-extensionpack",
         "vscodevim.vim",
         "ms-python.python",
+        "Gruntfuggly.todo-tree",
+        "wayou.vscode-todo-highlight",
+        "WakaTime.vscode-wakatime",
+        "redhat.vscode-yaml"
     ],
     "unwantedRecommendations": []
 }
