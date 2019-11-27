@@ -3,6 +3,8 @@
     "python.formatting.provider": "black",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 3000,
     "python.linting.flake8Args": [
         "--max-line-length=100",
         "--ignore=E231" // ignore whitespace after period
@@ -28,8 +30,6 @@
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.suggest.localityBonus": true,
     "editor.snippetSuggestions": "top",
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 3000,
     "vim.foldfix": true,
     "vim.insertModeKeyBindings": [
         {
