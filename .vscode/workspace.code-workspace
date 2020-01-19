@@ -1,28 +1,33 @@
 {
-    "folders": [
-        {
-            "path": "D:\\GitHub\\vscode" // change in Linux
-        }
-    ],
     "settings": {
+        "python.formatting.provider": "black",
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.flake8Args": [
+            "--max-line-length=100",
+            "--ignore=E231" // ignore whitespace after period
+        ],
+        "python.formatting.blackArgs": [
+            "--line-length=100"
+        ],
         "workbench.iconTheme": "material-icon-theme",
         "workbench.colorTheme": "Material Theme Darker High Contrast",
-        "window.zoomLevel": -0.15,
+        "window.zoomLevel": 0,
         "zenMode.hideLineNumbers": false,
         "zenMode.hideStatusBar": false,
         "zenMode.hideTabs": false,
         "editor.insertSpaces": true,
         "editor.tabSize": 4,
         "editor.lineNumbers": "relative",
-        "editor.minimap.enabled": false,
-        "editor.cursorBlinking": "smooth",
+        "editor.cursorBlinking": "solid",
         "editor.cursorStyle": "block",
-        "editor.fontFamily": "'Iosevka SS08 Medium', 'Fira Code', Consolas, 'Courier New', monospace",
-        "editor.fontSize": 14,
+        "editor.fontFamily": "'Iosevka SS08 Medium'",
+        "editor.fontSize": 15,
         "editor.fontLigatures": true,
         "editor.suggestSelection": "recentlyUsedByPrefix",
-        "editor.suggest.localityBonus": true,
         "editor.snippetSuggestions": "top",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 3000,
         "vim.foldfix": true,
         "vim.insertModeKeyBindings": [
             {
@@ -37,15 +42,11 @@
         ],
         "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
         "terminal.integrated.fontSize": 13,
-        "terminal.integrated.shell.windows": "cmd.exe", // change in Linux
-        "python.formatting.provider": "black",
-        "python.pythonPath": "C:\\ProgramData\\Miniconda3\\python.exe",
-        "code-runner.executorMap": {
-            "erlang": "erl -compile $fileName && erl -noshell -s $fileNameWithoutExt -s init stop",
-        },
-        "erlang.linting": true,
-        "gitlens.currentLine.enabled": false, 
+        "terminal.integrated.rendererType": "canvas",
+        "gitlens.currentLine.enabled": false,
         "gitlens.codeLens.authors.enabled": false,
         "gitlens.codeLens.recentChange.enabled": false,
+        "terminal.integrated.inheritEnv": false,
+        "workbench.startupEditor": "newUntitledFile",
     }
 }
