@@ -1,10 +1,7 @@
 {
-    "python.pythonPath": "SET_YOUR_PYTHON_PATH",
     "python.formatting.provider": "black",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 3000,
     "python.linting.flake8Args": [
         "--max-line-length=100",
         "--ignore=E231" // ignore whitespace after period
@@ -21,15 +18,15 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
-    "editor.cursorBlinking": "smooth",
+    "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
-    "editor.fontFamily": "'Iosevka SS08, Medium'",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "'Iosevka SS08 Medium'",
+    "editor.fontSize": 15,
     "editor.fontLigatures": true,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "editor.suggest.localityBonus": true,
     "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 3000,
     "vim.foldfix": true,
     "vim.insertModeKeyBindings": [
         {
@@ -48,4 +45,6 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "terminal.integrated.inheritEnv": false,
+    "workbench.startupEditor": "newUntitledFile",
 }
