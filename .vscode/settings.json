@@ -1,17 +1,16 @@
 {
-    "python.formatting.provider": "black",
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--max-line-length=100",
-        "--ignore=E231" // ignore whitespace after period
-    ],
-    "python.formatting.blackArgs": [
-        "--line-length=100"
+        "--max-line-length=99",
+        "--max-complexity=15"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai Vibrant",
+    "window.zoomLevel": -1,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
     "zenMode.hideTabs": false,
@@ -21,12 +20,12 @@
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
     "editor.fontFamily": "'Iosevka SS08 Medium'",
-    "editor.fontSize": 15,
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 3000,
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": false,
     "vim.foldfix": true,
     "vim.insertModeKeyBindings": [
         {
@@ -41,9 +40,35 @@
     ],
     "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
     "terminal.integrated.fontSize": 13,
-    "terminal.integrated.rendererType": "canvas",
+    "terminal.integrated.rendererType": "auto",
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "workbench.startupEditor": "newUntitledFile",
+    "python.dataScience.askForKernelRestart": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.mode.active": "zen",
+    "git.ignoreLegacyWarning": true,
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#B48EAD",
+        "statusBar.noFolderBackground": "#B48EAD",
+        "statusBar.debuggingBackground": "#B48EAD"
+    },
 }
